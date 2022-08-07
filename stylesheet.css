@@ -1,0 +1,207 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+body
+{
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+}
+
+.container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+background:white;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px white;
+} 
+
+.container .left_side
+{
+    position: relative;
+    background: grey;
+    padding: 25px;
+    
+}
+.profiletext
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom : 20px;
+    border-bottom: 1px solid rgba(240, 235, 235, 0.937);
+}
+.profiletext .imgself
+{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+.profiletext h2
+{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:600;
+    line-height: 1.4;
+
+}
+
+.profiletext h2 span
+{
+    font: size 0.8em;
+    font-weight: 600;
+}
+
+
+.contactInfo
+{
+padding-top: 20px;
+color: black;
+}
+
+.tittle
+{
+    color:black;
+    text-transform: uppercase;
+    font-weight: 800px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contactInfo ul
+{
+    position: relative;   
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 10px;
+    font-size: 15px;
+    color: black; 
+}
+
+.contactInfo ul li span
+{
+   font-weight: bold; 
+
+}
+
+.contactInfo.education li
+{
+margin-bottom: 20px;
+}
+
+.contactInfo.education h5
+{
+    color: rgb(59, 17, 213);
+    font-weight: 500px;
+}
+
+.contactInfo.education h4:nth-child(2)
+{
+    font-weight: 500px;
+    color: black ;
+}
+
+.contactInfo.education h4
+{
+    font-weight: 500px;
+    color: rgb(8, 8, 8);
+}
+
+.contactInfo.language .percentage
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:white;
+    display: block;
+    margin-top: 5px;
+}
+.contactInfo.language .percentage  div
+{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background:black;
+}
+.container .right-side
+{
+    position: relative;
+    background:white;
+    padding: 40px;
+}
+
+.About
+{
+    margin-bottom: 50px;
+}
+
+.About:last-child
+{
+    margin:0;
+}
+
+.title2
+{
+    color:  rgb(59, 17, 213);
+    text-transform: uppercase;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+p
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.About .box
+{
+
+    margin: 16px 0;
+
+}
+
+.title3
+{
+    color:  rgb(59, 17, 213);
+    text-transform: uppercase;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+
+    
+ 
+
